@@ -1,0 +1,17 @@
+Source: xenta-meta-xfce
+Section: metapackages
+Priority: optional
+Maintainer: Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.7
+Homepage: https://github.com/xentaoslinux/xenta-meta-xfce
+Vcs-Browser: https://github.com/xentaoslinux/xenta-meta-xfce.git
+
+Package: xenta-meta-xfce
+Architecture: all
+Depends: xenta-meta-core, xenta-artwork-xfce, gtk2-engines-xfce, thunar, thunar-archive-plugin, thunar-media-tags-plugin, thunar-volman, xfce4-appfinder, xfce4-panel, xfce4-places-plugin, xfce4-session, xfce4-settings, xfconf, xfdesktop4, xfce4-screenshooter, xfwm4, xenta-backgrounds-xfce, xentadesktop, xfce4-cpufreq-plugin, xfce4-eyes-plugin, xfce4-mailwatch-plugin, xfce4-quicklauncher-plugin, xfce4-screenshooter-plugin, xfce4-systemload-plugin, xfce4-timer-plugin, xfce4-time-out-plugin, xfce4-verve-plugin, mugshot, xfce4-whiskermenu-plugin
+Conflicts : mint-meta-xfce
+Replaces : mint-meta-xfce
+Provides: gdm-theme
+Description: Paket Metapaket Xenta OS edisi Xfce.
+  Paket Metapaket Xfce bawaan untuk Xenta OS edisi Xfce.

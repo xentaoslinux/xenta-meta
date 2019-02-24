@@ -1,0 +1,152 @@
+xenta-meta-xfce (5.0.0) batik; urgency=low
+
+  * Pembaharuan Paket
+
+ -- Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>  Sun, 24 Feb 2019 11:38:07 +0700 
+
+mint-meta-xfce (2012.06.25) maya; urgency=low
+
+  * Removed xfce4-utils
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 25 Jun 2012 14:59:57 +0100
+
+mint-meta-xfce (2012.06.21.2) maya; urgency=low
+
+  * Relaxed dependency on mint-info (it was specifically asking for mint-info-xfce)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 21 Jun 2012 11:09:59 +0100
+
+mint-meta-xfce (2012.06.21.1) maya; urgency=low
+
+  * Removed dependencies on mint-meta-common and mint-meta-codecs
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 21 Jun 2012 11:02:54 +0100
+
+mint-meta-xfce (2012.06.21) maya; urgency=low
+
+  * Maya
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 21 Jun 2012 10:51:44 +0100
+
+mint-meta-xfce (2012.03.26) debian; urgency=low
+
+  * Removed obsolete dependencies
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 26 Mar 2012 11:44:44 +0100
+
+mint-meta-xfce (2011.03.09.1) debian; urgency=low
+
+  * Debian
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 09 Mar 2011 14:49:00 +0000
+
+mint-meta-xfce (8.0.7) isadora; urgency=low
+
+  * removed xfce4-dict from depends
+
+ -- merlwiz79 <mintmerlwiz79@gmail.com>  Sat, 03 Jul 2010 03:54:00 -0600
+
+mint-meta-xfce (8.0.6) isadora; urgency=low
+
+  * added missing xscreensaver
+
+ -- merlwiz79 <mintmerlwiz79@gmail.com>  Fri, 02 Jul 2010 21:30:00 -0600
+
+mint-meta-xfce (8.0.5) isadora; urgency=low
+
+  * updated for isadora
+
+ -- merlwiz79 <mintmerlwiz79@gmail.com>  Mon, 25 Jun 2010 17:52:00 -0600
+
+mint-meta-xfce (8.0.4) helena; urgency=low
+
+  * added mint-artwork-common, shiki-wise-theme, gnome-disk-utility, shiki-colors-xfwm-theme
+
+ -- merlwiz79 <mintmerlwiz79@gmail.com>  Tue, 23 Feb 2010 21:52:00 -0600
+
+mint-meta-xfce (8.0.3) helena; urgency=low
+
+  * removed envyng from control file
+
+ -- merlwiz79 <mintmerlwiz79@gmail.com>  Mon, 22 Feb 2010 23:21:00 -0600
+
+mint-meta-xfce (8.0.2) helena; urgency=low
+
+  * removed second gnome-device-manager in control file
+
+ -- merlwiz79 <mintmerlwiz79@gmail.com>  Mon, 29 Dec 2009 00:45:00 -0600
+
+mint-meta-xfce (8.0.1) helena; urgency=low
+
+  * removed libavcodec-unstripped-52 from control file
+  * removed libavutil-unstripped-49 from control file
+
+ -- merlwiz79 <mintmerlwiz79@gmail.com>  Mon, 29 Dec 2009 00:34:00 -0600
+
+mint-meta-xfce (8.0.0) helena; urgency=low
+
+  * Helena Release
+
+ -- merlwiz79 <mintmerlwiz79@gmail.com>  Fri, 18 Dec 2009 17:00:00 -0600
+
+mint-meta-xfce (0.8) gloria; urgency=low
+
+  * Fixed control file
+
+ -- merlwiz79 <mintmerlwiz79@gmail.com>  Sun, 16 Aug 2009 16:15:00 -0600
+
+mint-meta-xfce (0.7) gloria; urgency=low
+
+  * Fixed control file
+
+ -- merlwiz79 <mintmerlwiz79@gmail.com>  Mon, 10 Aug 2009 00:33:00 -0600
+
+mint-meta-xfce (0.6) gloria; urgency=low
+
+  * Fixed control file
+
+ -- merlwiz79 <mintmerlwiz79@gmail.com>  Fri, 26 Jun 2009 13:04:00 -0600
+
+mint-meta-xfce (0.5) gloria; urgency=low
+
+  * updated for gloria
+
+ -- merlwiz79 <linuxmint.com>  Mon, 22 Jun 2009 22:29:00 -0600
+
+mint-meta-xfce (0.4) felicia; urgency=low
+
+  * removed nspluginwrapper
+
+ -- merlwiz79 <linuxmint.com>  Thu, 22 Jan 2009 18:17:00 -0600
+
+mint-meta-xfce (0.3) felicia; urgency=low
+
+  * Missing packages apt-xapian-index and gvfs was added.
+
+ -- merlwiz79 <linuxmint.com>  Thu, 22 Jan 2009 18:17:00 -0600
+
+mint-meta-xfce (0.2-1) felicia; urgency=low
+
+  * Changed python-exo to libexo-0.3-0
+
+ -- merlwiz79 <linuxmint.com>  Tue, 20 Jan 2009 12:14:00 -0600
+
+mint-meta-xfce (0.2) felicia; urgency=low
+
+  * changed name for felicia
+
+ -- merlwiz79 <linuxmint.com>  Fri, 22 Aug 2008 15:37:00 -0600
+
+xfcemint-desktop (0.1-1) elyssa; urgency=low
+
+  * Fixed dependencies
+
+ -- merlwiz79 <linuxmint.com>  Fri, 22 Aug 2008 15:37:00 -0600
+
+
+xfcemint-desktop (0.1) elyssa; urgency=low
+
+  * Intial release
+
+ -- merlwiz79 <linuxmint.com>  Wed, 30 Jul 2008 20:10:00 -0600
+
