@@ -1,3 +1,9 @@
+xenta-meta-xfce (5.0.1+xentaos2) batik; urgency=low
+
+  * Pengepakan paket buat rilis "batik" stable
+
+ -- Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>  Sat, 02 Mar 2019 23:24:50 +0700 
+
 xenta-meta-xfce (5.0.0) batik; urgency=low
 
   * Pembaharuan Paket
