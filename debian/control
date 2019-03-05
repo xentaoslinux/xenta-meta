@@ -1,17 +1,47 @@
-Source: xenta-meta-xfce
-Section: metapackages
+Source: xenta-meta
+Section: admin
 Priority: optional
 Maintainer: Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.7
-Homepage: https://github.com/xentaoslinux/xenta-meta-xfce
-Vcs-Browser: https://github.com/xentaoslinux/xenta-meta-xfce.git
+Homepage: https://github.com/xentaoslinux/xenta-meta
+Vcs-Browser: https://github.com/xentaoslinux/xenta-meta.git
+
+Package: xenta-meta-cinnamon
+Architecture: all
+Depends: xenta-meta-core, xenta-artwork-gnome, cinnamon, xenta-artwork-cinnamon, gir1.2-gnomedesktop-3.0, nemo, nemo-fileroller, nemo-share, nemo-emblems, nemo-folder-color-switcher, cinnamon-control-center, cinnamon-screensaver, cinnamon-screensaver-x-plugin, cinnamon-themes
+Description: Set of packages installed by default in the Cinnamon edition of Xenta OS
+ Set of packages installed by default in the Cinnamon edition of Xenta OS.
 
 Package: xenta-meta-xfce
 Architecture: all
 Depends: xenta-meta-core, xenta-artwork-xfce, gtk2-engines-xfce, thunar, thunar-archive-plugin, thunar-media-tags-plugin, thunar-volman, xfce4-appfinder, xfce4-panel, xfce4-places-plugin, xfce4-session, xfce4-settings, xfconf, xfdesktop4, xfce4-screenshooter, xfwm4, xenta-backgrounds-xfce, xentadesktop, xfce4-cpufreq-plugin, xfce4-eyes-plugin, xfce4-mailwatch-plugin, xfce4-quicklauncher-plugin, xfce4-screenshooter-plugin, xfce4-systemload-plugin, xfce4-timer-plugin, xfce4-time-out-plugin, xfce4-verve-plugin, mugshot, xfce4-whiskermenu-plugin
-Conflicts : mint-meta-xfce
-Replaces : mint-meta-xfce
-Provides: gdm-theme
-Description: Paket Metapaket Xenta OS edisi Xfce.
-  Paket Metapaket Xfce bawaan untuk Xenta OS edisi Xfce.
+Description: Set of packages installed by default in the Xfce edition of Xenta OS
+ Set of packages installed by default in the Xfce edition of Xenta OS.
+
+Package: xenta-meta-core
+Architecture: all
+Depends: linuxxenta-keyring, xenta-info, xentasystem, ubuntu-system-adjustments, plymouth-theme-ubuntu-text, grub2-theme-xenta, xentabackup, xentainstall, xentaupdate, xenta-welcome-screen, xentasources, xentadrivers
+Description: Core Xenta OS packages
+ Core Xenta OS packages.
+
+Package: cinnamon-desktop-environment
+Architecture: all
+Depends: xenta-meta-cinnamon, cinnamon-core, gnome-calculator, gnome-screenshot, gnome-terminal
+Description: Cinnamon desktop environment - full desktop with extra components
+ These are the extended components of Cinnamon, a desktop environment which
+ provides advanced innovative features and a traditional user experience.
+ .
+ This metapackage depends on all programs needed to have a fully fledged
+ desktop environment. Install this if you want a complete cinnamon desktop,
+ including graphical apps that allow users to perform almost all everyday tasks.
+
+Package: cinnamon-core
+Architecture: all
+Depends: cinnamon, cinnamon-control-center, cinnamon-screensaver, cinnamon-session, cinnamon-settings-daemon, nemo, cinnamon-l10n
+Description: Cinnamon desktop environment - essential components
+ These are the core components of Cinnamon, a desktop environment which
+ provides advanced innovative features and a traditional user experience.
+ .
+ This metapackage depends on basic components needed to use the desktop
+ environment. Install this if you want a minimal cinnamon desktop.
