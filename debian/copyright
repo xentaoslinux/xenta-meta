@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: xenta-meta-xfce
+Upstream-Name: xenta-meta
 Upstream-Contact: Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>
-Source: https://github.com/xentaoslinux/xenta-meta-xfce
+Source: https://github.com/xentaoslinux/xenta-meta
 
 Files: debian/*
 Copyright: 2019, Dindin Hernawan
